@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/action_credito"
+    android:icon="@drawable/ic_stars_black_24dp"
+    android:title="@string/credito"/>
+<item
+    android:id="@+id/action_partido"
+    android:icon="@drawable/ic_soccer"
+    android:title="@string/partido"/>
+    <item
+    android:id="@+id/action_notificacion"
+    android:icon="@drawable/ic_notifications"
+    android:title="@string/notificacion"/>
+</menu>

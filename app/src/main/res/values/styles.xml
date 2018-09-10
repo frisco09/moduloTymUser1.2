@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="dialogLogin" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@color/yellow</item>
+        <item name="colorAccent">@color/jumbo</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+        <style name="barFragment" parent="@android:style/Theme.Holo.Light">
+            <item name="android:actionBarStyle">@style/barFragment.ActionBarStyle</item>
+        </style>
+        <style name="barFragment.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+            <item name="android:titleTextStyle">@style/barFragment.ActionBar.TitleTextStyle</item>
+            <item name="android:background">@color/colorPrimary</item>
+        </style>
+        <style name="barFragment.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+            <item name="android:textColor">@color/colorPrimaryDark</item>
+        </style>
+
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TyM Torneos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="usuario">Usuario</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registro">¿No tenes cuenta? REGISTRARME</string>
+    <string name="ingreso">INGRESAR</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="recuperar">Olvide mi contraseña</string>
+    <string name="credito">creditos</string>
+    <string name="partido">partidos</string>
+    <string name="torneo">torneos</string>
+    <string name="sala">sala</string>
+    <string name="cuenta">cuenta</string>
+    <string name="notificacion">notificacion</string>
+    <string name="email">Email</string>
+    <string name="wsp">Whatsapp</string>
+    <string name="abaut">TyM</string>
+    <string name="title_activity_user_home_">user_home_Activity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo">logo</string>
+    <string name="title_activity_log">Sign in</string>
+    <string name="sign_in">¿Ya tenes cuenta? INICIAR SESION</string>
+    <string name="fragment_creditos">Fragment creditos</string>
+    <string name="aux">aux</string>
+    <string name="queres_jugar">Queres jugar...</string>
+    <string name="apuesto">Apuesto:</string>
+    <string name="jugar_gratis">JUGAR GRATIS</string>
+
+</resources>

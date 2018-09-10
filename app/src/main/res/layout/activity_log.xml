@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".LogActivity">
+
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/abaut"
+        android:src="@drawable/logotym" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corners"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/user"
+        android:ems="10"
+        android:hint="@string/usuario"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_corners"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/pass"
+        android:ems="10"
+        android:hint="@string/contrasenia"
+        android:inputType="numberPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_shape"
+        android:onClick="onClick"
+        android:text="@string/ingreso"
+        android:textColor="#d1766461"
+        android:textSize="24sp"
+        tools:background="@drawable/button_shape" />
+
+    <Button
+        android:id="@+id/btnRecordar"
+        android:layout_width="204dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:text="@string/recuperar"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        tools:background="@android:color/transparent"
+        tools:textColorHighlight="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btCrearCuenta"
+        android:layout_width="182dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="55dp"
+        android:background="@android:color/transparent"
+        android:onClick="register"
+        android:text="@string/registro"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorHighlight="@android:color/holo_orange_light"
+        android:textSize="18sp" />
+
+</LinearLayout>

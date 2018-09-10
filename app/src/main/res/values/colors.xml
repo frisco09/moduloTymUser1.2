@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffcf22</color>
+    <color name="colorPrimaryDark">#b70f00</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#fffcfc</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#f3ffd748</color>
+    <color name="fullyellow">#fff200</color>
+    <color name="monsoon">#e1f3ff48</color>
+    <color name="jumbo">#ff7a4e</color>
+    <color name="aluminum">#999999</color>
+    <color name="bgBottomNavigation">#eff73838</color>
+    <color name="iron">#f9f2eed5</color>
+</resources>
