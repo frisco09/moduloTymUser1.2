@@ -61,7 +61,7 @@
                 app:srcCompat="@drawable/ic_go" />
         </LinearLayout>
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txbTipo1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -74,7 +74,7 @@
         android:id="@+id/btnGratis"
         android:layout_width="213dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView3"
+        android:layout_below="@+id/txbTipo1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="@drawable/button_shape"

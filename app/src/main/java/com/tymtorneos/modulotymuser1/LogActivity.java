@@ -81,7 +81,7 @@ public class LogActivity extends AppCompatActivity implements View.OnClickListen
 
     public void onLoginSuccess(String user_name, String user_password) {
         if((user_name.equals("user")) && (user_password.equals("1234"))){
-            Intent intent = new Intent(LogActivity.this, UserActivity.class);
+            Intent intent = new Intent(LogActivity.this, MainActivity.class);
             startActivity(intent);
             overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
         }else{
